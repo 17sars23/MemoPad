@@ -14,6 +14,8 @@
 		961B1034202DA26900DAB5C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961B1032202DA26900DAB5C5 /* LaunchScreen.storyboard */; };
 		961B103F202DA26900DAB5C5 /* MemoPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B103E202DA26900DAB5C5 /* MemoPadTests.swift */; };
 		961B104A202DA26900DAB5C5 /* MemoPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B1049202DA26900DAB5C5 /* MemoPadUITests.swift */; };
+		961B1058202DA29300DAB5C5 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B1057202DA29300DAB5C5 /* MemoViewController.swift */; };
+		961B105B202DAAA600DAB5C5 /* shitumon.png in Resources */ = {isa = PBXBuildFile; fileRef = 961B105A202DAAA600DAB5C5 /* shitumon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		961B1045202DA26900DAB5C5 /* MemoPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		961B1049202DA26900DAB5C5 /* MemoPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoPadUITests.swift; sourceTree = "<group>"; };
 		961B104B202DA26900DAB5C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		961B1057202DA29300DAB5C5 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		961B105A202DAAA600DAB5C5 /* shitumon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shitumon.png; path = ../shitumon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		961B1028202DA26900DAB5C5 /* MemoPad */ = {
 			isa = PBXGroup;
 			children = (
+				961B105A202DAAA600DAB5C5 /* shitumon.png */,
 				961B1029202DA26900DAB5C5 /* AppDelegate.swift */,
 				961B102B202DA26900DAB5C5 /* ViewController.swift */,
 				961B102D202DA26900DAB5C5 /* Main.storyboard */,
 				961B1030202DA26900DAB5C5 /* Assets.xcassets */,
 				961B1032202DA26900DAB5C5 /* LaunchScreen.storyboard */,
 				961B1035202DA26900DAB5C5 /* Info.plist */,
+				961B1057202DA29300DAB5C5 /* MemoViewController.swift */,
 			);
 			path = MemoPad;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			files = (
 				961B1034202DA26900DAB5C5 /* LaunchScreen.storyboard in Resources */,
 				961B1031202DA26900DAB5C5 /* Assets.xcassets in Resources */,
+				961B105B202DAAA600DAB5C5 /* shitumon.png in Resources */,
 				961B102F202DA26900DAB5C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			files = (
 				961B102C202DA26900DAB5C5 /* ViewController.swift in Sources */,
 				961B102A202DA26900DAB5C5 /* AppDelegate.swift in Sources */,
+				961B1058202DA29300DAB5C5 /* MemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,9 +435,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQ2RXWD63X;
 				INFOPLIST_FILE = MemoPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.MemoPad;
+				PRODUCT_BUNDLE_IDENTIFIER = "junasa--ars.Memopad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -441,9 +451,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQ2RXWD63X;
 				INFOPLIST_FILE = MemoPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.MemoPad;
+				PRODUCT_BUNDLE_IDENTIFIER = "junasa--ars.Memopad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

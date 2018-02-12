@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/junakawagishi/Desktop/L4S_iPhone/MemoPad/MemoPad/shitumon.png">
+   </FileRef>
+   <FileRef
       location = "self:MemoPad.xcodeproj">
    </FileRef>
 </Workspace>
